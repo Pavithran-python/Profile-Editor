@@ -9,6 +9,8 @@ import 'Repositories/ProfileRepository.dart';
 import 'Services/ProfileService.dart';
 
 void main() {
+  WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
+  SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
   final repo = ProfileRepository(profileService: ProfileService());
   runApp(MyApp(profileRepository: repo));
 }
