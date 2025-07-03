@@ -1,4 +1,4 @@
-# 🧑‍💻 Flutter Mini Profile Editor
+# 🧑‍💻 Flutter Profile Editor
 
 A simple profile editor app built with **Flutter** and **BLoC**, allowing users to:
 
@@ -47,7 +47,7 @@ A simple profile editor app built with **Flutter** and **BLoC**, allowing users 
 | State Management   | flutter_bloc       |
 | API Simulation     | Dio + Interceptors |
 | Navigation         | go_router          |
-| Form Validation    | Native `Form` + custom validators |
+| Form Validation    | form_builder_validators + custom validators |
 | UI Enhancements    | flutter_hooks (for controllers) |
 | Toast Messages     | Flutter SnackBar   |
 
